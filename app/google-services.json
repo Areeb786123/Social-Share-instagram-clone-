@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "997064061814",
+    "project_id": "social-share-8b797",
+    "storage_bucket": "social-share-8b797.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997064061814:android:f9f326e82b74a9c3a4c057",
+        "android_client_info": {
+          "package_name": "com.areeb.socialshare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997064061814-3fr1ma644sm3gve37jqmmngm4cjj4r76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAbFgPM0aAIAQQE74ErdCJ43-PnlMhHTfA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997064061814-3fr1ma644sm3gve37jqmmngm4cjj4r76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
