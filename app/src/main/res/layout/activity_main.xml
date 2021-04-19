@@ -14,6 +14,7 @@
         android:orientation="horizontal">
 
         <ImageView
+            android:id="@+id/create_post"
             android:layout_width="26dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
@@ -39,6 +40,7 @@
         </TextView>
 
         <ImageView
+            android:id="@+id/chatting"
             android:layout_width="25dp"
             android:layout_height="30dp"
             android:layout_marginLeft="49dp"

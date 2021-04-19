@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Chatting">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_baseline_groups_24">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Sorry"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="40dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/capriola"
+        android:text="It is under development"
+        android:textColor="#E60A54"
+        android:textSize="20dp">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="355dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="295dp"
+        android:src="@drawable/sorry">
+
+    </ImageView>
+
+</LinearLayout>

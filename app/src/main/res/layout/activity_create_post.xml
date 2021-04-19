@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".CreatePost">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_baseline_groups_24">
+
+    </ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Share some memories"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="40dp">
+
+    </TextView>
+    <ImageView
+        android:id="@+id/btnPickImage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/ic_baseline_add_circle_24">
+
+    </ImageView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        app:cardBackgroundColor="#E60A54"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <EditText
+                        android:id="@+id/etDescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/white"
+                        android:textColorHint="@color/white"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="50dp"
+                        android:hint="write here whatever you want !!"
+                        android:textSize="20dp">
+
+                    </EditText>
+
+
+
+                </LinearLayout>
+            </ScrollView>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="218dp"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="10dp">
+
+            </ImageView>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="60dp"
+        android:background="@drawable/login_btn"
+        android:fontFamily="@font/capriola"
+        android:text="Upload"
+        android:textColor="@color/white"
+        android:textSize="18dp"
+        android:textStyle="bold">
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+
+
+</LinearLayout>
